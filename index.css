@@ -22,7 +22,7 @@ a {
 }
 
 section {
-	min-width: 500px;
+	min-width: 470px;
 }
 
 #top {
@@ -87,6 +87,7 @@ section {
 	height: 200px;
 	width: 200px;
 	padding-left: 10px;
+	border-radius: 100%;
 }
 
 .text-content {
@@ -118,11 +119,18 @@ section {
 
 .card {
 	background-color: var(--light-black);
-	margin: 0 30px 40px 30px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+	margin: 0 25px 40px 25px;
 	border-radius: 10px;
 	height: 550px;
 	width: 400px;
 	color: #DDD;
+	transition: .3s;
+}
+
+.card:hover {
+	box-shadow: 0 12px 24px 0 rgba(0,0,0,0.5);
+	transform: translate(-5px, -5px);
 }
 
 .card-image {
