@@ -1,24 +1,16 @@
+/* got these colors off a buzzfeed quiz lol */
 :root {
---lighter-blue: #D2FDFF;
---light-blue: #B4DFE5;
---orange: #F4976C;
 --dark-blue: #303C6C;
---tan: #FBE8A6;
---tan: #D8C674;
---light-blue: #7DA7D9;
 --light-black: #303030;
 --dark-green: #00746B;
 --light-gray: #DADADA;
 --gray: #AAA;
+--gold: #FFD700;
 }
 
 body {
 	margin: 0;
 	font-family: sans-serif;
-}
-
-a {
-	color: white;
 }
 
 section {
@@ -31,7 +23,7 @@ section {
 	text-align: center;
 	margin: 0 auto;
 	padding-top: 50px;
-	color: #DDD;
+	color: var(--light-gray);
 }
 
 #title-name {
@@ -48,15 +40,15 @@ section {
 .title-link {
 	margin: 0 5px;
 	font-size: 20px;
-	color: #DDD;
+	color: var(--light-gray);
 }
 .title-link:hover {
-	color: #FFD700;
+	color: var(--gold);
 }
 
 #middle {
 	background-color: var(--dark-blue);
-	color: black;
+	color: var(--light-black);
 }
 
 .middle-content {
@@ -124,7 +116,7 @@ section {
 	border-radius: 10px;
 	height: 550px;
 	width: 400px;
-	color: #DDD;
+	color: var(--light-gray);
 	transition: .3s;
 }
 
